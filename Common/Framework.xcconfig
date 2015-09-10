@@ -1,0 +1,17 @@
+//
+// This file defines additional configuration options that are appropriate only for frameworks.
+// This file is not standalone -- it is meant to be included into a configuration file for a
+// specific type of target.
+//
+
+// Disallows use of APIs that are not available to app extensions and linking to frameworks
+// that have not been built with this setting enabled.
+APPLICATION_EXTENSION_API_ONLY = YES
+
+DYLIB_INSTALL_NAME_BASE = @rpath
+
+// Whether function calls should be position-dependent (should always be NO for library code)
+GCC_DYNAMIC_NO_PIC = NO
+
+// Prevents installing to the system install location
+SKIP_INSTALL = YES

@@ -1,0 +1,6 @@
+
+// Universal tests has all the paths set correctly
+#include "../Universal/Tests.Universal.xcconfig"
+
+// Refine down to tvOS only
+#include "../../Common/tvOS.xcconfig"
