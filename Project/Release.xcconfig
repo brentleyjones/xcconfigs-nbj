@@ -8,6 +8,9 @@
 // The format of debugging symbols
 DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 
+// Whether to enable NSAssert
+ENABLE_NS_ASSERTIONS = YES
+
 // Allow running automated tests
 ENABLE_TESTABILITY = NO
 
