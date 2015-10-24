@@ -17,6 +17,9 @@ ENABLE_TESTABILITY = NO
 // The optimization level (0, 1, 2, 3, s) for the produced binary
 GCC_OPTIMIZATION_LEVEL = s
 
+// Metal Debug Info
+MTL_ENABLE_DEBUG_INFO = NO
+
 // Whether to only build the active architecture
 ONLY_ACTIVE_ARCH = NO
 
