@@ -33,4 +33,5 @@ TODO _(Recommend submodule for integration. Describe normal `#include` usage. De
 
 ## Credits
 
-Inspired by [@jspahrsummers's](https://github.com/jspahrsummers/xcconfigs/pull/43) and [@mrackwitz's](https://github.com/mrackwitz/xcconfigs) xcconfigs. @samdmarshall's [unofficial guide to xcconfig files](http://pewpewthespells.com/blog/xcconfig_guide.html) was also very helpful.
+Inspired by [@jspahrsummers's](https://github.com/jspahrsummers/xcconfigs/pull/43) and [@mrackwitz's](https://github.com/mrackwitz/xcconfigs) xcconfigs.  
+[@samdmarshall's](https://github.com/samdmarshall) [unofficial guide to xcconfig files](http://pewpewthespells.com/blog/xcconfig_guide.html) was also very helpful.
