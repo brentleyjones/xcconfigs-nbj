@@ -70,6 +70,9 @@ CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES
 // Warn about potentially unreachable code
 CLANG_WARN_UNREACHABLE_CODE = YES
 
+// Don't try to strip included frameworks. With code signing, this no longer works anyway.
+COPY_PHASE_STRIP = NO
+
 // The format of debugging symbols
 DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 
