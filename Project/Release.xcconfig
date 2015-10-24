@@ -9,7 +9,7 @@
 DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 
 // Whether to enable NSAssert
-ENABLE_NS_ASSERTIONS = YES
+ENABLE_NS_ASSERTIONS = NO
 
 // Allow running automated tests
 ENABLE_TESTABILITY = NO
