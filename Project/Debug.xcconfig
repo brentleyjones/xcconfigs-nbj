@@ -21,6 +21,9 @@ GCC_OPTIMIZATION_LEVEL = 0
 // Preprocessor Macros
 GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited)
 
+// Metal Debug Info
+MTL_ENABLE_DEBUG_INFO = YES
+
 // Whether to only build the active architecture
 ONLY_ACTIVE_ARCH = YES
 
