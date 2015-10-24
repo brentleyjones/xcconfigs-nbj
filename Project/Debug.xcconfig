@@ -9,6 +9,9 @@
 // Without dSYM speeds up development iteration
 DEBUG_INFORMATION_FORMAT = dwarf
 
+// Whether to enable NSAssert
+ENABLE_NS_ASSERTIONS = NO
+
 // Allow running automated tests
 ENABLE_TESTABILITY = YES
 
