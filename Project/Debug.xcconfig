@@ -18,6 +18,9 @@ ENABLE_TESTABILITY = YES
 // The optimization level (0, 1, 2, 3, s) for the produced binary
 GCC_OPTIMIZATION_LEVEL = 0
 
+// Preprocessor Macros
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited)
+
 // Whether to only build the active architecture
 ONLY_ACTIVE_ARCH = YES
 
