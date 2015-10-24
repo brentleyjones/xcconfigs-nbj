@@ -1,0 +1,17 @@
+//
+// This file defines additional configuration options that are appropriate only for watchOS.
+// This file is not standalone -- it is meant to be included into a configuration file for a
+// specific type of target.
+//
+
+// Supported device families (1 is Phone, 2 is Pad, 3 is TV, 4 is Watch)
+TARGETED_DEVICE_FAMILY = 4
+
+// The base SDK to use (if no version is specified, the latest version is assumed)
+SDKROOT = watchos
+
+// Refine down supported platforms, in case we need to override Universal settings
+SUPPORTED_PLATFORMS = watchsimulator watchos
+
+// Code signing is required
+CODE_SIGN_IDENTITY = iPhone Developer

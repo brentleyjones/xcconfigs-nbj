@@ -1,0 +1,5 @@
+
+#include "../../Common/watchOS.xcconfig"
+
+// Where to find embedded frameworks
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks'

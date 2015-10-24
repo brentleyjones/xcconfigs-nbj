@@ -1,0 +1,6 @@
+
+// Universal framework has all the paths set correctly
+#include "../Universal/Framework.Universal.xcconfig"
+
+// Refine down to Mac OS X only
+#include "../../Common/macOSX.xcconfig"
