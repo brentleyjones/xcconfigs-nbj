@@ -1,3 +1,7 @@
+//
+// This file defines additional configuration options that are appropriate only for a framework
+// on iOS. This should be set at the target level for each project configuration.
+//
 
 // Universal framework has all the paths set correctly
 #include "../Universal/Framework.Universal.xcconfig"
