@@ -15,6 +15,12 @@ CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES
 // Whether to warn about strcpy() and strcat()
 CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES
 
+// C++ language dialect
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x"
+
+// C++ standard library
+CLANG_CXX_LIBRARY = "libc++"
+
 // Whether to enable module imports
 CLANG_ENABLE_MODULES = YES
 
@@ -78,6 +84,9 @@ DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 
 // Whether to require objc_msgSend to be cast before invocation
 ENABLE_STRICT_OBJC_MSGSEND = YES
+
+// C language dialect
+GCC_C_LANGUAGE_STANDARD = gnu99
 
 // Whether function calls should be position-dependent (should always be NO for library code)
 GCC_DYNAMIC_NO_PIC = NO
