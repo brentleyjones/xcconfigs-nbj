@@ -79,6 +79,9 @@ DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 // Whether to require objc_msgSend to be cast before invocation
 ENABLE_STRICT_OBJC_MSGSEND = YES
 
+// Whether function calls should be position-dependent (should always be NO for library code)
+GCC_DYNAMIC_NO_PIC = NO
+
 // Whether to enable exceptions for Objective-C
 GCC_ENABLE_OBJC_EXCEPTIONS = YES
 
