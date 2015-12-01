@@ -85,6 +85,9 @@ GCC_ENABLE_OBJC_EXCEPTIONS = YES
 // Whether to generate debugging symbols
 GCC_GENERATE_DEBUGGING_SYMBOLS = YES
 
+// Get a linking error for duplicated variables
+GCC_NO_COMMON_BLOCKS = YES
+
 // Whether to precompile the prefix header (if one is specified)
 GCC_PRECOMPILE_PREFIX_HEADER = YES
 
