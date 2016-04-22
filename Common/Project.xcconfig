@@ -6,6 +6,9 @@
 // Disable legacy-compatible header searching
 ALWAYS_SEARCH_USER_PATHS = NO
 
+// Whether to warn on misuses of nonnull parameter and return types
+CLANG_ANALYZER_NONNULL = YES
+
 // Whether to warn when a floating-point value is used as a loop counter
 CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES
 
