@@ -25,6 +25,7 @@ _Note:_ "Universal" above means having a single target that can compile for any 
 For project level configurations there are the following base xcconfigs:
 
 - Debug
+- InHouse
 - Release
 
 ## Usage
