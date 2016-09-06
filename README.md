@@ -1,8 +1,8 @@
 # Base xcconfigs
 
-Using xcconfigs, instead of modifying settings in an Xcode project, is my preferred way configuring targets. They allow for reuse of settings across projects and targets. They also allow for standardization of settings for specific types of targets (eg. iOS app, tvOS app, Universal framework), which is purpose of this repository.
+Using xcconfigs, instead of modifying settings in an Xcode project, is my preferred way of configuring targets. They allow for reuse of settings across projects and targets. They also allow for standardization of settings for specific types of targets (eg. iOS app, tvOS app, Universal framework), which is the purpose of this repository.
 
-By using the xcconfigs in this repository as a basis for your own xcconfigs (either via `#include` or copying) you should get a solid foundation for your project's and target's settings. The xcconfigs use a hierarchical structure to allow for easy maintainability.
+By using the xcconfigs in this repository as a basis for your own xcconfigs (either via `#include` or copying) you should achieve a solid foundation for your project's and target's settings. The xcconfigs use a hierarchical structure to allow for easy maintainability.
 
 ## Target Configurations
 
@@ -25,6 +25,7 @@ _Note:_ "Universal" above means having a single target that can compile for any 
 For project level configurations there are the following base xcconfigs:
 
 - Debug
+- InHouse
 - Release
 
 ## Usage
