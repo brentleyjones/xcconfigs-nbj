@@ -16,10 +16,8 @@ LD_RUNPATH_SEARCH_PATHS[sdk=appletv*] = $(inherited) '@executable_path/Framework
 LD_RUNPATH_SEARCH_PATHS[sdk=watch*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 
 // Bitcode isn't supported on all platforms currently
+ENABLE_BITCODE = YES
 ENABLE_BITCODE[sdk=macosx*] = NO
-ENABLE_BITCODE[sdk=iphone*] = YES
-ENABLE_BITCODE[sdk=appletv*] = YES
-ENABLE_BITCODE[sdk=watch*] = YES
 
 
 // OSX-specific default settings
