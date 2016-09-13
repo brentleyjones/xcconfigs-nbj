@@ -58,6 +58,9 @@ CLANG_WARN_ENUM_CONVERSION = YES
 // Whether to warn on implicit conversions between signed/unsigned types
 CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO
 
+// Warn if all paths through a function call itself
+CLANG_WARN_INFINITE_RECURSION = YES
+
 // Warn about implicit conversions between pointers and integers.
 // For example, this can catch issues when one incorrectly intermixes using NSNumbers
 // and raw integers.
@@ -75,6 +78,9 @@ CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR
 
 // Whether to warn on suspicious implicit conversions
 CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES
+
+// Warn about suspicious uses of std::move
+CLANG_WARN_SUSPICIOUS_MOVE = YES
 
 // Warn about potentially unreachable code
 CLANG_WARN_UNREACHABLE_CODE = YES
