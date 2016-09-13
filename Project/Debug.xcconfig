@@ -12,7 +12,7 @@ DEBUG_INFORMATION_FORMAT = dwarf
 // Whether to enable NSAssert
 ENABLE_NS_ASSERTIONS = YES
 
-// Allow running automated tests
+// Allow running unit tests
 ENABLE_TESTABILITY = YES
 
 // The optimization level (0, 1, 2, 3, s) for the produced binary
