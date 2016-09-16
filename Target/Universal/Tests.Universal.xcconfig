@@ -7,9 +7,6 @@
 // Watch doesn't have XCTest currently
 SUPPORTED_PLATFORMS = macosx iphonesimulator iphoneos appletvos appletvsimulator
 
-// Platform specific version of XCTest
-FRAMEWORK_SEARCH_PATHS = $(inherited) '$(PLATFORM_DIR)/Developer/Library/Frameworks'
-
 // Dynamic linking uses different default copy paths
 LD_RUNPATH_SEARCH_PATHS[sdk=macosx*] = $(inherited) '@executable_path/../Frameworks' '@loader_path/../Frameworks'
 LD_RUNPATH_SEARCH_PATHS[sdk=iphone*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
