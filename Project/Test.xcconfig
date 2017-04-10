@@ -11,6 +11,9 @@
 // Allow running unit tests
 ENABLE_TESTABILITY = YES
 
+// Disable bitcode for faster compilation
+ENABLE_BITCODE = NO
+
 // Whether to only build the active architecture
 ONLY_ACTIVE_ARCH = YES
 
