@@ -15,10 +15,6 @@ LD_RUNPATH_SEARCH_PATHS[sdk=iphone*] = $(inherited) '@executable_path/Frameworks
 LD_RUNPATH_SEARCH_PATHS[sdk=appletv*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 LD_RUNPATH_SEARCH_PATHS[sdk=watch*] = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 
-// Bitcode isn't supported on all platforms currently
-ENABLE_BITCODE = YES
-ENABLE_BITCODE[sdk=macosx*] = NO
-
 
 // OSX-specific default settings
 FRAMEWORK_VERSION[sdk=macosx*] = A

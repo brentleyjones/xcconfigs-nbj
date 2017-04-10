@@ -9,6 +9,9 @@
 // Without dSYM speeds up development iteration
 DEBUG_INFORMATION_FORMAT = dwarf
 
+// Disable bitcode for faster compilation
+ENABLE_BITCODE = NO
+
 // Whether to enable NSAssert
 ENABLE_NS_ASSERTIONS = YES
 

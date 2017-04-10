@@ -8,6 +8,10 @@
 // The format of debugging symbols
 DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 
+// Bitcode isn't supported on all platforms currently
+ENABLE_BITCODE = YES
+ENABLE_BITCODE[sdk=macosx*] = NO
+
 // Whether to enable NSAssert
 ENABLE_NS_ASSERTIONS = NO
 
